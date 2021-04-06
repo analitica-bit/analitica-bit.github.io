@@ -1,4 +1,4 @@
-title:              Analitica
+title:              Analitica-bit
 email:              matthewefoli@gmail.com
 description:        Data tutorials, tips, tricks and projects
 author:             Analitica-bit
@@ -7,15 +7,16 @@ url:                "https://analitica-bit.github.io"
 
 # Social Profiles
 twitter_username:   
-github_username:    
+github_username:    efolimatthew
 facebook_username:  
 instagram_username:  
-linkedin_username:
+linkedin_username: matthew-efoli
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
+future: falsess
 markdown:           kramdown
 paginate:           5
 paginate_path:      "/posts/page:num/"

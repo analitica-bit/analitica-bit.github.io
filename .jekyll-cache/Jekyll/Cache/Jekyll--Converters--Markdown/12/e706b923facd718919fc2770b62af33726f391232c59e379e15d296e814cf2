@@ -1,0 +1,47 @@
+I"
+<h2 id="exploratory-data-analysis-or-eda">Exploratory data analysis, or EDA</h2>
+<p>In 1962, John W. Tukey (Figure 1-1) called
+for a reformation of statistics in his seminal paper “The Future of Data Analysis”. 
+He proposed a new scientific discipline called data analysis that
+included statistical inference as just one component.</p>
+
+<p>The field of exploratory data analysis
+was established with Tukey’s 1977 now-classic book Exploratory Data Analysis.</p>
+
+<h3 id="what-is-data">What is data?</h3>
+<p>Data is preprocessed information. Data	comes from many	sources: sensor	measurements events, text, images, and videos.
+Majority of data these days are unstructured.
+Unstructured data: images are a collection of pixels with each pixel
+containing RGB (red, green, blue) color information. Texts are sequences of
+words and nonword characters, often organized by sections, subsections, and so
+on. Clickstreams are sequences of actions by a user interacting with an app or
+web page. Harnessing raw data of these quantity into actionable insights is one of the major challenges of data science. Unstructured raw data has to be processed and manipulated to structured form.</p>
+
+<h5 id="terms-for-data-types">Terms for data types</h5>
+<p>Binary - A special case of categorical data with just two categories of values (0/1, true/false).</p>
+
+<p>Categorical - Data that can take on only a specific set of values representing a set of possible categories.</p>
+
+<p>Continous - Data that can take on any value in an interval.</p>
+
+<p>Discrete - Data that can take on only integer values, such as counts.</p>
+
+<p>Ordinal - Categorical data that has an explicit ordering.</p>
+
+<p>Structured data can be in two forms: categorical or numerical.
+Numeric data can be discrete or continuous.
+Categorical data takes a fixed set of values.</p>
+
+<p>Note: data types taxonomy may vary from one software to another.</p>
+
+<h4 id="rectangular-data">Rectangular Data</h4>
+<p>Rectangular data  is essentially a two-dimensional matrix with rows indicating
+records (cases) and columns indicating features (variables). Most times, data doesn’t start in this form. But, unstructured data is processed and manipulated to this form.
+In R, the basic rectangular data structure is a data.frame object.
+data.table and dplyr are two important packages for multilevel indexes and data.frame object manipulation.</p>
+
+<h3 id="reference">Reference</h3>
+<p>Practical Statistics for Data Scientists by Peter Bruce and Andrew Bruce</p>
+
+<p>Photographs by <a href="https://unsplash.com/">Unsplash</a>.&lt;/p&gt;</p>
+:ET

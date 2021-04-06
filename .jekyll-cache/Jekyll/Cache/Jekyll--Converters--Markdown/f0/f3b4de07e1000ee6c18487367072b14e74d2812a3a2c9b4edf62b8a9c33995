@@ -1,0 +1,20 @@
+I"2<h2 id="football">Football</h2>
+<p>Football is one of the most lucrative sports. According to <a href="https://sportytell.com/sports/highest-paid-sports-world/">SPORTYTELL</a>, footballers are 8th highest paid sport professionals.</p>
+
+<p>This data analysis takes a subjective stance of the game and also the choice of analytical tools used. It showcases the ways of exploring data using R. it an old project of mine as it shows our wrote my codes as far back as June 6, 2020.</p>
+
+<p><img src="" alt="meme of my code 6 months ago" /></p>
+
+<h2 id="eda-process">EDA Process</h2>
+
+<h3 id="data-description">Data Description</h3>
+<p>I think the data is a 2018 data as it has Messi with the highest rating :). it can be found on my Github repository (put link here). Although, I do not lay claim on its authorship as I downloaded it online from a site I can’t remember now.</p>
+
+<h3 id="installing-packages">Installing packages</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>install.package("tidyverse")
+library(tidyverse)
+</code></pre></div></div>
+<h3 id="importing-data">Importing data</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>fifa &lt;- read.csv("fifa.csv", header = TRUE)&gt;
+</code></pre></div></div>
+:ET
