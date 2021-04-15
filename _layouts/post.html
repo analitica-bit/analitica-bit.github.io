@@ -45,12 +45,9 @@ layout: default
               Post</span> &rarr;</a>
           {% endif %}
 
-        </div> {% if site.disqus.shortname %}
-                % include disqus_comments.html %}
-               sss{% endif %}
-
-      </div>
     </div>
   </div>
 
-  
+  {% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}

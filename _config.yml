@@ -16,7 +16,7 @@ linkedin_username: matthew-efoli-1b64ab187
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
-future: falsess
+future:             false
 markdown:           kramdown
 paginate:           5
 paginate_path:      "/posts/page:num/"
@@ -24,3 +24,10 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: analitica-bit-github-io
+
